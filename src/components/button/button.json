@@ -2,7 +2,8 @@
   "collectionName": "buttons",
   "info": {
     "name": "Button",
-    "description": ""
+    "description": "",
+    "displayName": "Button"
   },
   "options": {},
   "attributes": {
@@ -13,10 +14,6 @@
     "url": {
       "type": "string",
       "required": true
-    },
-    "newTab": {
-      "type": "boolean",
-      "default": false
     }
   }
 }

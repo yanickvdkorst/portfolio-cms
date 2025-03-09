@@ -1,7 +1,9 @@
-"use strict";
+'use strict';
+
 /**
  * menu router
  */
-Object.defineProperty(exports, "__esModule", { value: true });
-var strapi_1 = require("@strapi/strapi");
-exports.default = strapi_1.factories.createCoreRouter('api::menu.menu');
+
+const { createCoreRouter } = require('@strapi/strapi').factories;
+
+module.exports = createCoreRouter('api::menu.menu');

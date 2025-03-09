@@ -4,16 +4,16 @@
   "info": {
     "singularName": "menu",
     "pluralName": "menus",
-    "displayName": "Menus"
+    "displayName": "Menu"
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "titel": {
+    "Name": {
       "type": "string"
     },
-    "items": {
+    "MenuItem": {
       "type": "component",
       "repeatable": true,
       "component": "button.button"

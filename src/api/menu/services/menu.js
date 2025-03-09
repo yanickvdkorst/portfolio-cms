@@ -1,7 +1,9 @@
-"use strict";
+'use strict';
+
 /**
  * menu service
  */
-Object.defineProperty(exports, "__esModule", { value: true });
-var strapi_1 = require("@strapi/strapi");
-exports.default = strapi_1.factories.createCoreService('api::menu.menu');
+
+const { createCoreService } = require('@strapi/strapi').factories;
+
+module.exports = createCoreService('api::menu.menu');

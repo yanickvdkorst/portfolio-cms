@@ -4,11 +4,11 @@ export interface ButtonButton extends Struct.ComponentSchema {
   collectionName: 'buttons';
   info: {
     description: '';
+    displayName: 'Button';
     name: 'Button';
   };
   attributes: {
     label: Schema.Attribute.String & Schema.Attribute.Required;
-    newTab: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     url: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }

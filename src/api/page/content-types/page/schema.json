@@ -15,18 +15,20 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text"
+    "slug": {
+      "type": "string"
     },
-    "startDate": {
-      "type": "date"
-    },
-    "endDate": {
-      "type": "date"
-    },
-    "status": {
-      "type": "enumeration",
-      "enum": ["planned", "in-progress", "completed"]
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "pagecomps.usps",
+        "pagecomps.text-with-image",
+        "pagecomps.text-display",
+        "pagecomps.project-overview",
+        "pagecomps.project-featured",
+        "pagecomps.image",
+        "pagecomps.banner"
+      ]
     }
   }
 }
