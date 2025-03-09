@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_pagecomps_usps",
+  "info": {
+    "displayName": "Usps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "alternative",
+        "standard"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "usps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeaters.usps-repeater"
+    }
+  }
+}

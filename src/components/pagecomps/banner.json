@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pagecomps_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "span": {
+      "type": "string"
+    },
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "alternative"
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_repeaters_feature_items",
+  "info": {
+    "displayName": "FeatureItems"
+  },
+  "options": {},
+  "attributes": {
+    "project": {
+      "type": "string"
+    }
+  }
+}

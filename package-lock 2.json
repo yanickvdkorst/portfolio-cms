@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "lockfileVersion": 3,
   "requires": true,
+  "description": "A Strapi application",
+  "private": true,
   "packages": {
     "": {
       "name": "portfolio-cms",
@@ -10955,9 +10957,9 @@
       "integrity": "sha512-wynEP02LmIbLpcYw8uBKpcfF6dmg2vcpKqxeH5UcoKEYdExslsdUA4ugFauuaeYdTB76ez6gJW8XAZ6CgkXYxA=="
     },
     "node_modules/nanoid": {
-      "version": "3.3.9",
-      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.9.tgz",
-      "integrity": "sha512-SppoicMGpZvbF1l3z4x7No3OlIjP7QJvC9XR7AhZr1kL133KHnKPztkKDc+Ir4aJ/1VhTySrtKhrsycmrMQfvg==",
+      "version": "3.3.8",
+      "resolved": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.8.tgz",
+      "integrity": "sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==",
       "funding": [
         {
           "type": "github",
@@ -14780,7 +14782,6 @@
     },
     "node_modules/styled-components": {
       "version": "6.1.15",
-      "resolved": "https://registry.npmjs.org/styled-components/-/styled-components-6.1.15.tgz",
       "integrity": "sha512-PpOTEztW87Ua2xbmLa7yssjNyUF9vE7wdldRfn1I2E6RTkqknkBYpj771OxM/xrvRGinLy2oysa7GOd7NcZZIA==",
       "dependencies": {
         "@emotion/is-prop-valid": "1.2.2",
@@ -16651,5 +16652,25 @@
         "url": "https://github.com/sponsors/colinhacks"
       }
     }
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "strapi": {
+    "uuid": "76a12e72-9a75-40c3-83f5-79842ca6a14a"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pagecomps_images",
+  "info": {
+    "displayName": "Image"
+  },
+  "options": {},
+  "attributes": {
+    "Display": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "alternative"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

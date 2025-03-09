@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pagecomps_text_displays",
+  "info": {
+    "displayName": "Text-display",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "display": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "alternative"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

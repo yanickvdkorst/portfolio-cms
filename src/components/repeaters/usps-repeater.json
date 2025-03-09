@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_repeaters_usps_repeaters",
+  "info": {
+    "displayName": "USPSRepeater",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

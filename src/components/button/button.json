@@ -1,0 +1,22 @@
+{
+  "collectionName": "buttons",
+  "info": {
+    "name": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_pagecomps_project_featureds",
+  "info": {
+    "displayName": "Project Featured",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "selectedProjectSlugs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}
