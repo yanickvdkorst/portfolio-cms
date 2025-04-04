@@ -27,7 +27,10 @@
         "pagecomps.project-overview",
         "pagecomps.project-featured",
         "pagecomps.image",
-        "pagecomps.banner"
+        "pagecomps.banner",
+        "pagecomps.image-galery",
+        "pagecomps.video",
+        "pagecomps.text-with-details"
       ]
     }
   }

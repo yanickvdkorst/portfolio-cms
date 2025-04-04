@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_pagecomps_text_with_details",
+  "info": {
+    "displayName": "Text with details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_column_1": {
+      "type": "string"
+    },
+    "text_column_1": {
+      "type": "text"
+    },
+    "title_column_2": {
+      "type": "string"
+    },
+    "text_column_2": {
+      "type": "text"
+    },
+    "title_column_3": {
+      "type": "string"
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeaters.list-items"
+    }
+  }
+}

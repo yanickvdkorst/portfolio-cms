@@ -17,9 +17,6 @@
     "title": {
       "type": "string"
     },
-    "category": {
-      "type": "string"
-    },
     "year": {
       "type": "string"
     },
@@ -27,14 +24,35 @@
       "type": "string"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "Category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "repeaters.cat-repeater"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "pagecomps.usps",
+        "pagecomps.text-with-image",
+        "pagecomps.text-display",
+        "pagecomps.project-overview",
+        "pagecomps.project-featured",
+        "pagecomps.image",
+        "pagecomps.banner",
+        "pagecomps.image-galery",
+        "pagecomps.text-with-details",
+        "pagecomps.video"
+      ]
     }
   }
 }

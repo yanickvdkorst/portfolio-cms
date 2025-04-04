@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_repeaters_list_items",
+  "info": {
+    "displayName": "ListItems"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "string"
+    }
+  }
+}

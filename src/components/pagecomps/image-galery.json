@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pagecomps_image_galeries",
+  "info": {
+    "displayName": "Image Galery"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "displayName": "ImageRepeater",
+      "type": "component",
+      "repeatable": true,
+      "component": "repeaters.image-repeater",
+      "max": 3
+    }
+  }
+}

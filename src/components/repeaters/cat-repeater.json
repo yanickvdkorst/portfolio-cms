@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_repeaters_cat_repeaters",
+  "info": {
+    "displayName": "CatRepeater"
+  },
+  "options": {},
+  "attributes": {
+    "Categorie": {
+      "type": "string"
+    }
+  }
+}

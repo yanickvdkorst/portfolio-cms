@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_repeaters_column_repeaters",
+  "info": {
+    "displayName": "ColumnRepeater"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

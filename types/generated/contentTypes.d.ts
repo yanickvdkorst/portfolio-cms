@@ -416,6 +416,9 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'pagecomps.project-featured',
         'pagecomps.image',
         'pagecomps.banner',
+        'pagecomps.image-galery',
+        'pagecomps.video',
+        'pagecomps.text-with-details',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
@@ -445,7 +448,21 @@ export interface ApiProjectProject extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    category: Schema.Attribute.String;
+    Category: Schema.Attribute.Component<'repeaters.cat-repeater', true>;
+    Content: Schema.Attribute.DynamicZone<
+      [
+        'pagecomps.usps',
+        'pagecomps.text-with-image',
+        'pagecomps.text-display',
+        'pagecomps.project-overview',
+        'pagecomps.project-featured',
+        'pagecomps.image',
+        'pagecomps.banner',
+        'pagecomps.image-galery',
+        'pagecomps.text-with-details',
+        'pagecomps.video',
+      ]
+    >;
     cover: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
