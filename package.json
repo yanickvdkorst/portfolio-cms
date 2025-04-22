@@ -21,7 +21,8 @@
     "strapi-import-export": "^0.0.1",
     "strapi-plugin-populate-deep": "^3.0.1",
     "strapi-v5-plugin-populate-deep": "^4.0.5",
-    "styled-components": "^6.0.0"
+    "styled-components": "^6.0.0",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
     "@types/node": "^20",
